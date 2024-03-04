@@ -1,0 +1,243 @@
+header {
+  background-image: url(/img/inner-banner.jpg);
+  display: inline-block;
+  text-align: center;
+  height: 40vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+header div.nav-aqua {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header div.nav-aqua h3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Halant", serif;
+  color: #fff;
+}
+header div.nav-aqua nav {
+  margin: 20px 10px;
+}
+header div.nav-aqua nav ul li {
+  display: inline;
+}
+header div.nav-aqua nav ul li a {
+  text-decoration: none;
+  color: #f8f9fa;
+  padding: 6px 0px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+header div.nav-aqua nav ul li input {
+  padding: 10px;
+  border-radius: 40px;
+  color: black;
+}
+header div.box-main-header {
+  display: flex;
+  margin-left: 15%;
+}
+header div.box-main-header div.main-header {
+  color: #fff;
+  font-weight: 600;
+}
+header div.box-main-header div.main-header h4 {
+  font-size: 24px;
+}
+header div.box-main-header div.main-header ul {
+  display: flex;
+}
+header div.box-main-header div.main-header ul li {
+  font-weight: 600;
+  list-style-type: none;
+  font-size: 16px;
+}
+header div.box-main-header div.main-header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header div.box-main-header div.main-header ul li i {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+#our-Services div.ctn-Services div.Services-text {
+  padding: 60px 400px;
+  text-align: center;
+}
+#our-Services div.ctn-Services div.Services-text h2 {
+  color: black;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+}
+#our-Services div.ctn-Services div.Services-text p {
+  font-size: 16px;
+  line-height: 28px;
+  color: gray;
+  letter-spacing: 1px;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a {
+  text-align: center;
+  padding: 60px 100px;
+  display: flex;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div.padding-div {
+  margin: 0px 35px;
+  padding: 43px 0px;
+  border-radius: 10px;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div.padding-div2 {
+  margin: 0px 35px;
+  padding: 43px 0px;
+  border-radius: 10px;
+  height: 250px;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div img {
+  border-radius: 50%;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div img.img1 {
+  position: absolute;
+  left: 45%;
+  top: 80%;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div img.img2 {
+  position: absolute;
+  left: 16.5%;
+  top: 80%;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div img.img3 {
+  position: absolute;
+  left: 74%;
+  top: 80%;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div img.img4 {
+  position: absolute;
+  left: 16.5%;
+  top: 135%;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div img.img5 {
+  position: absolute;
+  left: 45%;
+  top: 135%;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div img.img6 {
+  position: absolute;
+  left: 74%;
+  top: 135%;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div h4 {
+  padding: 35px 0 0 0;
+  font-size: 20px;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div h4 a {
+  color: black;
+  text-decoration: none;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div p {
+  font-size: 16px;
+  color: gray;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div a {
+  padding: 20px;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div a.a-color {
+  display: inline-block;
+  text-decoration: none;
+  background-color: aqua;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div:hover {
+  background-color: orange;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div:hover h4 a {
+  color: #fff;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div:hover p {
+  color: #fff;
+}
+#our-Services div.ctn-Services div.Services-img div.img-top div.img-top-a div:hover a.a-color {
+  color: orange;
+  background-color: #fff;
+}
+
+#footer-a {
+  background-color: black;
+}
+#footer-a div.container {
+  padding: 80px 100px;
+}
+#footer-a div.container div.text-center {
+  text-align: center;
+}
+#footer-a div.container div.text-center a {
+  font-size: 30px;
+  color: #eee;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+}
+#footer-a div.container form {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+#footer-a div.container form input {
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  padding: 0px 20px;
+  color: #777777;
+  width: 25%;
+  height: 55px;
+  border-radius: 4px 0px 0px 4px;
+}
+#footer-a div.container form button {
+  border: none;
+  margin: -4px;
+  padding: 18px 20px;
+  background-color: #00bbf9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0 4px 4px 0;
+  width: 10%;
+}
+#footer-a div.container div.footer-text div.border {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#footer-a div.container div.footer-text div.border div {
+  width: 25%;
+}
+#footer-a div.container div.footer-text div.border div h6 {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #eee;
+}
+#footer-a div.container div.footer-text div.border div ul li {
+  list-style-type: none;
+}
+#footer-a div.container div.footer-text div.border div ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=services.css.map */

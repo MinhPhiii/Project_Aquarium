@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #696687;
+}
+
+header {
+  background-image: url(/img/inner-banner.jpg);
+  display: inline-block;
+  text-align: center;
+  height: 40vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+header div.nav-aqua {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header div.nav-aqua h3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Halant", serif;
+  color: #fff;
+}
+header div.nav-aqua nav {
+  margin: 20px 10px;
+}
+header div.nav-aqua nav ul li {
+  display: inline;
+}
+header div.nav-aqua nav ul li a {
+  text-decoration: none;
+  color: #f8f9fa;
+  padding: 6px 0px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+header div.nav-aqua nav ul li input {
+  padding: 10px;
+  border-radius: 40px;
+  color: black;
+}
+header div.box-main-header {
+  display: flex;
+  margin-left: 15%;
+}
+header div.box-main-header div.main-header {
+  color: #fff;
+  font-weight: 600;
+}
+header div.box-main-header div.main-header h4 {
+  font-size: 24px;
+}
+header div.box-main-header div.main-header ul {
+  display: flex;
+}
+header div.box-main-header div.main-header ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+header div.box-main-header div.main-header ul li a {
+  text-decoration: none;
+  color: #eee;
+}
+header div.box-main-header div.main-header ul li i {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+#Hi {
+  padding: 90px 80px;
+}
+#Hi div.container div.box-text-img div.row {
+  display: flex;
+}
+#Hi div.container div.box-text-img div.row h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #00bbf9;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 897px;
+  top: 165%;
+}
+#Hi div.container div.box-text-img div.row h3 {
+  color: black;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+}
+#Hi div.container div.box-text-img div.row p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #707070;
+}
+#Hi div.container div.box-text-img div.row a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: aqua;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#Hi div.container div.box-text-img div.row a:hover {
+  background-color: orange;
+}
+#Hi div.container div.box-text-img div.row div.left img {
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 40px;
+}
+#Hi div.container div.box-text-img div.row div.right {
+  margin-left: 20px;
+}
+#Hi div.container div.box-text-img div.row div.right img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+#our-team {
+  background-color: orange;
+}
+#our-team div.container {
+  padding: 50px;
+}
+#our-team div.container div.box-our-team {
+  text-align: center;
+  color: #f8f9fa;
+}
+#our-team div.container div.box-our-team h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+}
+#our-team div.container div.box-our-team p {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+#our-team div.container div.img-our-team {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+#our-team div.container div.img-our-team div.img-team1 div img {
+  border-radius: 5px;
+}
+#our-team div.container div.img-our-team div.img-team1 div.text-a {
+  text-align: center;
+}
+#our-team div.container div.img-our-team div.img-team1 div.text-a a {
+  text-decoration: none;
+}
+#our-team div.container div.img-our-team div.img-team1 div.text-a a i {
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+#our-team div.container div.img-our-team div.img-team1 div.text-a a:hover i {
+  background-color: aqua;
+}
+#our-team div.container div.img-our-team div.img-team1 h4 {
+  text-align: center;
+}
+#our-team div.container div.img-our-team div.img-team1 h4 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+}
+#our-team div.container div.img-our-team div.img-team1 h4:hover a {
+  color: black;
+}
+
+#our-skill div.ourskill-ctn {
+  padding: 50px;
+}
+#our-skill div.ourskill-ctn div.ourskill-text {
+  text-align: center;
+}
+#our-skill div.ourskill-ctn div.ourskill-text h2 {
+  font-size: 35px;
+  color: black;
+}
+#our-skill div.ourskill-ctn div.ourskill-text p {
+  font-size: 18px;
+}
+#our-skill div.ourskill-ctn div.skill {
+  width: 80%;
+  margin: 60px auto;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#our-skill div.ourskill-ctn div.skill div {
+  width: 100%;
+}
+#our-skill div.ourskill-ctn div.skill div li {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 10px;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar {
+  display: block;
+  border-radius: 10px;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar span {
+  height: 10px;
+  float: left;
+  background: orange;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar span.Maintenance {
+  width: 90%;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar span.HealthServices {
+  width: 99%;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar span.AquariumDesign {
+  width: 60%;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar span.Consultation {
+  width: 80%;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar span.AquariumSupplies {
+  width: 100%;
+}
+#our-skill div.ourskill-ctn div.skill div li span.bar span.Cleaning-Services {
+  width: 90%;
+}
+
+#Different-aquariums {
+  background-image: url(/img/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+#Different-aquariums div.Differentaquariums-ctn div.Different {
+  padding: 60px;
+  text-align: center;
+}
+#Different-aquariums div.Differentaquariums-ctn div.Different h2 {
+  font-size: 36px;
+  color: #fff;
+  line-height: 48px;
+  font-weight: 600;
+}
+#Different-aquariums div.Differentaquariums-ctn div.Different p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 20px 350px;
+}
+#Different-aquariums div.Differentaquariums-ctn div.Different a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #00bbf9;
+  color: black;
+  border-radius: 5px;
+  margin: 7px;
+}
+#Different-aquariums div.Differentaquariums-ctn div.Different a.a-white {
+  background-color: white;
+}
+#Different-aquariums div.Differentaquariums-ctn div.Different a:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+#Testimonials div.container {
+  margin: 70px 150px;
+}
+#Testimonials div.container div.text-top {
+  text-align: center;
+}
+#Testimonials div.container div.text-top h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  color: black;
+}
+#Testimonials div.container div.text-top p {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+}
+#Testimonials div.container div.text-bot {
+  display: flex;
+}
+#Testimonials div.container div.text-bot div.text {
+  background-color: #eee;
+  border-radius: 4px;
+  box-shadow: 0 20px 62px;
+  padding: 2rem;
+  margin: 20px;
+}
+#Testimonials div.container div.text-bot div.text div.texta P::before {
+  content: "``";
+  font-size: 45px;
+  color: orangered;
+}
+#Testimonials div.container div.text-bot div.text div.texta p {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+}
+#Testimonials div.container div.text-bot div.text div.text-img img {
+  float: left;
+  border-radius: 50%;
+}
+#Testimonials div.container div.text-bot div.text div.text-img h3 {
+  display: inline;
+  color: black;
+  font-weight: 600;
+  line-height: 16px;
+  margin-left: 10px;
+}
+#Testimonials div.container div.text-bot div.text div.text-img p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#footer-a {
+  background-color: black;
+}
+#footer-a div.container {
+  padding: 80px 100px;
+}
+#footer-a div.container div.text-center {
+  text-align: center;
+}
+#footer-a div.container div.text-center a {
+  font-size: 30px;
+  color: #eee;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+}
+#footer-a div.container form {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+#footer-a div.container form input {
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  padding: 15px 20px;
+  color: #777777;
+  width: 25%;
+  height: 55px;
+  border-radius: 4px 0px 0px 4px;
+}
+#footer-a div.container form button {
+  border: none;
+  margin: -4px;
+  padding: 18px 20px;
+  background-color: #00bbf9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0 4px 4px 0;
+  width: 10%;
+}
+#footer-a div.container div.footer-text div.border {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#footer-a div.container div.footer-text div.border div {
+  width: 25%;
+}
+#footer-a div.container div.footer-text div.border div h6 {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #eee;
+}
+#footer-a div.container div.footer-text div.border div ul li {
+  list-style-type: none;
+}
+#footer-a div.container div.footer-text div.border div ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=about.css.map */

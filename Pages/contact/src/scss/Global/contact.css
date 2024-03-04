@@ -1,0 +1,206 @@
+header {
+  background-image: url(/img/inner-banner.jpg);
+  display: inline-block;
+  text-align: center;
+  height: 40vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+header div.nav-aqua {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header div.nav-aqua h3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Halant", serif;
+  color: #fff;
+}
+header div.nav-aqua nav {
+  margin: 20px 10px;
+}
+header div.nav-aqua nav ul li {
+  display: inline;
+}
+header div.nav-aqua nav ul li a {
+  text-decoration: none;
+  color: #f8f9fa;
+  padding: 6px 0px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+header div.nav-aqua nav ul li input {
+  padding: 10px;
+  border-radius: 40px;
+  color: black;
+}
+header div.box-main-header {
+  display: flex;
+  margin-left: 15%;
+}
+header div.box-main-header div.main-header {
+  color: #fff;
+  font-weight: 600;
+}
+header div.box-main-header div.main-header h4 {
+  font-size: 24px;
+}
+header div.box-main-header div.main-header ul {
+  display: flex;
+}
+header div.box-main-header div.main-header ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+header div.box-main-header div.main-header ul li a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+header div.box-main-header div.main-header ul li i {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+#form div.ctn-form {
+  text-align: center;
+  padding: 50px;
+}
+#form div.ctn-form div.form-text h2 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+}
+#form div.ctn-form div.form-text p {
+  font-size: 16px;
+  line-height: 28px;
+  color: gray;
+  letter-spacing: 1px;
+  padding: 0 340px;
+}
+#form div.ctn-form div.formx {
+  display: flex;
+  justify-content: center;
+}
+#form div.ctn-form div.formx div {
+  padding: 30px;
+}
+#form div.ctn-form div.formx div.form-left {
+  width: 32%;
+}
+#form div.ctn-form div.formx div.form-left div label {
+  display: block;
+  text-align: start;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+#form div.ctn-form div.formx div.form-left div input {
+  height: 30px;
+  width: 100%;
+}
+#form div.ctn-form div.formx div.form-right div label {
+  display: block;
+  text-align: start;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+#form div.ctn-form div.formx div.form-right div textarea {
+  width: 362px;
+  height: 260px;
+}
+#form div.ctn-form div.a button {
+  font-weight: 600;
+  padding: 14px 30px;
+  color: #fff;
+  background-color: aqua;
+  text-transform: uppercase;
+  border: none;
+  text-align: right;
+  border-radius: 10px;
+}
+#form div.ctn-form div.a button:hover {
+  background-color: orangered;
+}
+#form div.ctn-form iframe {
+  min-height: 20em;
+  width: 100%;
+  margin-top: 3em;
+  border: none;
+  padding: 0.4em;
+}
+
+#footer-a {
+  background-color: black;
+}
+#footer-a div.container {
+  padding: 80px 100px;
+}
+#footer-a div.container div.text-center {
+  text-align: center;
+}
+#footer-a div.container div.text-center a {
+  font-size: 30px;
+  color: #eee;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+}
+#footer-a div.container form {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+#footer-a div.container form input {
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  padding: 0px 20px;
+  color: #777777;
+  width: 25%;
+  height: 55px;
+  border-radius: 4px 0px 0px 4px;
+}
+#footer-a div.container form button {
+  border: none;
+  margin: -4px;
+  padding: 18px 20px;
+  background-color: #00bbf9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0 4px 4px 0;
+  width: 10%;
+}
+#footer-a div.container div.footer-text div.border {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#footer-a div.container div.footer-text div.border div {
+  width: 25%;
+}
+#footer-a div.container div.footer-text div.border div h6 {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #eee;
+}
+#footer-a div.container div.footer-text div.border div ul li {
+  list-style-type: none;
+}
+#footer-a div.container div.footer-text div.border div ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=contact.css.map */
